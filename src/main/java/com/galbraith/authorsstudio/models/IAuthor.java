@@ -8,7 +8,11 @@ import java.util.ArrayList;
  */
 public interface IAuthor {
 
-    // Getter Methods
+    /**
+     * Gets the name of the author.
+     * 
+     * @return 
+     */
     String getName();
     String getAddress();
     String getEmailAddress();
