@@ -5,7 +5,8 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 
 /**
- *
+ * An interface defining the public methods of AuthorStorageManager objects.
+ * 
  * @author Sean Galbraith
  */
 public interface IAuthorStorageManager {
@@ -13,21 +14,22 @@ public interface IAuthorStorageManager {
     /**
      * Adds a new Author and their details to the Authors Storage File.
      * 
-     * @param author 
+     * @param author The ne author to add.
      */
     void addAuthor(IAuthor author);
     
     /**
      * Updates an existing Author's entry in the Authors Storage File.
      * 
-     * @param author 
+     * @param previousAuthor The author pre-changes.
+     * @param updatedAuthor The author post-changes.
      */
-    void updateAuthor(IAuthor author);
+    void updateAuthor(IAuthor previousAuthor, IAuthor updatedAuthor);
     
     /**
      * Deletes an existing Author's entry from the Authors Storage File.
      * 
-     * @param author 
+     * @param author The author to delete.
      */
     void deleteAuthor(IAuthor author);
     

@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 
 /**
+ * An interface defining the public methods of ProjectStorageManager objects.
  *
  * @author Sean Galbraith
  */

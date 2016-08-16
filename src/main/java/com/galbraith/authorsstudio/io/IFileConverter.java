@@ -4,6 +4,7 @@ import com.galbraith.authorsstudio.models.IProject;
 import java.nio.file.Files;
 
 /**
+ * An interface defining the public methods of FileConverter objects.
  *
  * @author Sean Galbraith
  */

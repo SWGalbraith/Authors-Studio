@@ -5,7 +5,8 @@ import com.galbraith.authorsstudio.models.INote;
 import java.util.ArrayList;
 
 /**
- *
+ * An interface defining the public methods of any Project Editor Views.
+ * 
  * @author Sean Galbraith
  */
 public interface IProjectEditorView {

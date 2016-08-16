@@ -3,7 +3,8 @@ package com.galbraith.authorsstudio.views;
 import java.util.ArrayList;
 
 /**
- *
+ * An interface defining the public methods of any Data Editor Views.
+ * 
  * @author Sean Galbraith
  */
 public interface IDataEditorView {

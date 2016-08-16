@@ -1,6 +1,7 @@
 package com.galbraith.authorsstudio.io;
 
 /**
+ * An interface defining the public methods of FileConverterFactory objects.
  *
  * @author Sean Galbraith
  */
