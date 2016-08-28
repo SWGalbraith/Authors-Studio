@@ -23,6 +23,18 @@ public interface IAuthorsStudioView {
     void showDataEditor(EditorType editorType, EditorActionType actionType);
     
     /**
+     * Opens the User Defined List Editor View.
+     */
+    void showUserDefinedListEditorView();
+    
+    /**
+     * Opens the User Defined List Editor View with an associated project name.
+     * 
+     * @param projectName The name of the project to associate with the list.
+     */
+    void showUserDefinedListEditorView(String projectName);
+    
+    /**
      * Prompts the user to confirm an action using a pup-up window.
      * 
      * @param message The message to display to the user when confirming an action.
