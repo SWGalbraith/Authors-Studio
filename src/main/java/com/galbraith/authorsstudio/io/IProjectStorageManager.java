@@ -63,19 +63,6 @@ public interface IProjectStorageManager {
     boolean doesProjectAlreadyExist(String projectTitle);
     
     /**
-     * Creates the Projects Storage File.
-     */
-    void createProjectsStorageFile();
-    
-    /**
-     * Determines whether or not the Projects Storage File already exists or not.
-     * 
-     * @return A boolean indicating whether not the the Projects Storage File 
-     * already exists.
-     */
-    boolean doesProjectsStorageFileAlreadyExist();
-    
-    /**
      * Imports project details from an external Projects Storage File.
      * 
      * @param projectStorageFile The Projects Storage File to import project 

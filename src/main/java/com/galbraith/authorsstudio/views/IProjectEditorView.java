@@ -34,7 +34,13 @@ public interface IProjectEditorView {
     void setSelectedNoteTitle(String title);
     void setSelectedNoteContent(String content);
     
-    // Show/Hide Methods
+    /**
+     * Shows the Projects Sidebar to the user.
+     */
     void showProjectSiderbar();
+    
+    /**
+     * Hides the Projects Sidebar from the user.
+     */
     void hideProjectSidebar();
 }

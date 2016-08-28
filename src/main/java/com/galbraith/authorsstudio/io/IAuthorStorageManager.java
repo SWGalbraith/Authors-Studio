@@ -34,18 +34,6 @@ public interface IAuthorStorageManager {
     void deleteAuthor(IAuthor author);
     
     /**
-     * Creates the Authors Storage File.
-     */
-    void createAuthorsStorageFile();
-    
-    /**
-     * Checks whether or not the Authors Storage File already exists.
-     * 
-     * @return Boolean indicating whether or not the Authors Storage File exists.
-     */
-    boolean doesAuthorsStorageFileExist();
-    
-    /**
      * Gets a list of all Authors stored in the Authors Storage File.
      * 
      * @return A List of Authors.
